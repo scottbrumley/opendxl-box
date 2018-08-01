@@ -55,3 +55,4 @@ fabric.properties
 
 .idea/
 .vagrant/
+/basic-event.iml
