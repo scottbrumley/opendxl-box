@@ -1,5 +1,7 @@
 Vagrant.configure(2) do |config|
     config.ssh.insert_key=false
+    config.ssh.username = 'vagrant'
+    config.ssh.password = 'vagrant'
     config.vm.define "opendxl" do |opendxl|
             opendxl.vm.box = "ubuntu/xenial64"
             opendxl.vm.hostname = "opendxl"
