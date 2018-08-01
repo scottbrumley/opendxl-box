@@ -36,3 +36,10 @@ sudo apt-get install -y docker-ce
 
 ## Run the OpenDXL Broker
 sudo docker run -p 8883:8883 -p 8443:8443 --restart unless-stopped --name broker -d -it opendxl/opendxl-broker
+
+cp /home/vagrant/.ssh/authorized_keys /vagrant
+
+## Fix SSH keys
+# chmod 0700 /home/vagrant/.ssh
+# chmod 0600 /home/vagrant/.ssh/authorized_keys
+# chown -R vagrant /home/vagrant/.ssh
