@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
             opendxl.vm.provider :virtualbox do |v|
                 v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
                 v.customize ["modifyvm", :id, "--memory", 512]
-                v.customize ["modifyvm", :id, "--name", "web"]
+                v.customize ["modifyvm", :id, "--name", "opendxl"]
                 ### On 64-bit Windows machine VT-Virtualization might need to be turned on in BIOS
                 #v.customize ["modifyvm", :id, "--hwvirtex", "off"]
                 #v.customize ["modifyvm", :id, "--vtxvpid", "off"]
