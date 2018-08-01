@@ -13,7 +13,7 @@ https://localhost:8443
 TCP 8883
 
 ## Example Vagrant File 
-'''
+```
 Vagrant.configure(2) do |config|
     config.vm.define "opendxl" do |opendxl|
             opendxl.vm.box = "sbrumley/opendxl"
@@ -34,4 +34,4 @@ Vagrant.configure(2) do |config|
             end
         end
 end
-'''
+```
