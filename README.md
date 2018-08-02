@@ -1,11 +1,17 @@
 # OpenDXL-Box
-This project will build the current OpenDXL environment and run an OpenDXL broker on Docker.
+> This project will build the current OpenDXL environment and run an OpenDXL broker on Docker.  
+> It uses Vagrant and Virtualbox to build an automated development environment. 
+
+## Prerequisites
+- [Vagrant](https://www.vagrantup.com/downloads.html) at https://www.vagrantup.com/downloads.html
+- [Virtualbox](https://www.virtualbox.org/wiki/Downloads) at https://www.virtualbox.org/wiki/Downloads
 
 ## How To Run
 scripts/vssh.sh
 
 ## How to Access
-vagrant ssh
+1. vagrant ssh
+1. cd /vagrant
 
 ## Clean Up VM
 scripts/vclean.sh
@@ -14,8 +20,8 @@ scripts/vclean.sh
 https://localhost:8443
 
 ### Login
-**Username:** admin
-**Password:** password
+- **Username:** admin
+- **Password:** password
 
 ## OpenDXL Broker Port
 TCP 8883
