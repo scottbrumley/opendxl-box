@@ -5,8 +5,10 @@
 ## Prerequisites
 - [Vagrant](https://www.vagrantup.com/downloads.html) at https://www.vagrantup.com/downloads.html
 - [Virtualbox](https://www.virtualbox.org/wiki/Downloads) at https://www.virtualbox.org/wiki/Downloads
+- [Git](https://git-scm.com/downloads)
 
 ## How To Run
+1. git clone https://github.com/scottbrumley/opendxl-box.git
 1. ./scripts/vssh.sh
 1. vagrant ssh
 1. cd /vagrant
