@@ -1,10 +1,13 @@
 # opendxl-box
 
 ## How To Run
-vagrant up
+scripts/vssh.sh
 
 ## How to Access
 vagrant ssh
+
+## Clean Up VM
+scripts/vclean.sh
 
 ## OpenDXL Broker GUI
 https://localhost:8443
