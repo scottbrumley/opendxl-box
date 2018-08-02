@@ -1,4 +1,5 @@
-# opendxl-box
+# OpenDXL-Box
+This project will build the current OpenDXL environment and run an OpenDXL broker on Docker.
 
 ## How To Run
 scripts/vssh.sh
