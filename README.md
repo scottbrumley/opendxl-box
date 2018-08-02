@@ -7,7 +7,7 @@
 - [Virtualbox](https://www.virtualbox.org/wiki/Downloads) at https://www.virtualbox.org/wiki/Downloads
 
 ## How To Run
-scripts/vssh.sh
+./scripts/vssh.sh
 
 ## How to Access
 1. vagrant ssh
@@ -20,7 +20,7 @@ scripts/vssh.sh
 ```python -m dxlclient provisionconfig config localhost basic-event-cn```
 
 ## Clean Up VM
-scripts/vclean.sh
+./scripts/vclean.sh
 
 ## OpenDXL Broker GUI
 https://localhost:8443
