@@ -56,3 +56,5 @@ fabric.properties
 .idea/
 .vagrant/
 /basic-event.iml
+/ubuntu-xenial-16.04-cloudimg-console.log
+/config/
