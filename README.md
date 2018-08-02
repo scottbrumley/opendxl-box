@@ -18,7 +18,6 @@
 1. Run your program
 
 ## Configure OpenDXL Certificates
-```python -m dxlclient provisionconfig basic-event localhost basic-event-cn```\
 **Syntax:**\
 python -m dxlclient provisionconfig **\<certificate directory>** **\<OpenDXL Broker hostname>** **\<Certificate Common Name>**\
 **i.e.** 
