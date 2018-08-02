@@ -12,6 +12,10 @@ scripts/vclean.sh
 ## OpenDXL Broker GUI
 https://localhost:8443
 
+### Login
+Username: admin
+Password: password
+
 ## OpenDXL Broker Port
 TCP 8883
 
