@@ -22,7 +22,8 @@ python -m dxlclient provisionconfig **\<certificate directory>** **\<OpenDXL Bro
 ```python -m dxlclient provisionconfig config localhost basic-event-cn```
 
 ## Clean Up VM
-./scripts/vclean.sh
+- exit (to exit VM)
+- ./scripts/vclean.sh (removes VM)
 
 ## OpenDXL Broker GUI
 https://localhost:8443
