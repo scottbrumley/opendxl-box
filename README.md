@@ -7,6 +7,10 @@
 - [Virtualbox](https://www.virtualbox.org/wiki/Downloads) at https://www.virtualbox.org/wiki/Downloads
 - [Git](https://git-scm.com/downloads)
 
+### Windows Requires
+- Start Menu --> cmd (shift + enter to go as Administrator)
+- set PATH=%PATH%;c:\Program Files\Git\usr\bin
+
 ## How To Run
 1. **git clone https://github.com/scottbrumley/opendxl-box.git**
 1. **cd opendxl-box**  (you can rename this directory to match your project)
