@@ -14,7 +14,7 @@
 ## How To Run
 1. **git clone https://github.com/scottbrumley/opendxl-box.git**
 1. **cd opendxl-box**  (you can rename this directory to match your project)
-1. **./scripts/vssh.sh**
+1. **./scripts/vssh.sh** (On Windows just vagrant up)
 1. **vagrant ssh**
 1. **cd /vagrant**
 1. **python -m dxlclient provisionconfig config localhost basic-event-cn**
