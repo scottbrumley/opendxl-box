@@ -37,6 +37,9 @@ sudo apt-get install -y docker-ce
 ## Run the OpenDXL Broker
 sudo docker run -p 8883:8883 -p 8443:8443 --restart unless-stopped --name broker -d -it opendxl/opendxl-broker
 
+## Node Red
+sudo docker run -p 1880:1880 --restart unless-stopped --name nodered --link broker:broker -d -it opendxl/opendxl-node-red-docker
+
 cd /vagrant
 
 ## Fix SSH keys
